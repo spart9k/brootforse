@@ -1,7 +1,7 @@
 import socket
 import threading
 lock = threading.Lock()
-host = "185.87.48.157"
+#host = "IP address"
 found = False
 def check_port(port: int):
     global found
